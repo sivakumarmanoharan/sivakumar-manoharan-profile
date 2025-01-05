@@ -23,7 +23,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic2 from '../images/20241224_114854.jpg'
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -72,12 +72,12 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm from Windsor. <strong className="text-stone-100">Backend Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Consuy Inc.</strong>, helping build a contemporary AI platform supported by Generative AI.
+        at <strong className="text-stone-100">Consuy Inc.</strong>, contributing to build a contemporary AI platform supported by Generative AI.
         A master's graduate from <strong className=' text-stone-100'> University of Windsor</strong> in <strong className='text-stone-100'> Applied Computing. </strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me <strong className="text-stone-100">Reading books, Watching thought-provoking movies</strong>.
-        I am a fitness enthusiast too and love to hit the gym almost everyday. 
+        In my free time time, you can catch me <strong className="text-stone-100">Reading books, Practicing new languages and software skills</strong>.
+        I am a fitness enthusiast too and love to hit the gym almost everyday. Eager to collaborate with people for innovative projects. 
       </p>
     </>
   ),
@@ -100,17 +100,31 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  profileImageSrc: profilepic2,
+  description: `Are you looking for a software development professional who is collaborative, team-spirited, a continuous learner, data-driven, and tech-loving? You’ve come to the right place! 🚀\n \n
+
+
+I’m Sivakumar Manoharan, a polyglot software enthusiast and a master's graduate in Applied Computing at the University of Windsor. Ever since I discovered my love for numbers and computers, I’ve been on an exciting journey to solve problems, build efficient systems, and create value for organizations.
+
+
+My technical expertise spans Python, JavaScript, and various frameworks, with a strong foundation in software development, system design, and machine learning. My key highlights include:
+
+
+Developed a human resource management automation tool that benefited 6000+ employees.
+Optimized API response times from 1600 ms to 32 ms using in-memory caching.
+
+
+I am passionate about using technology to create meaningful and innovative solutions while fostering collaboration and empathy in every project I undertake.
+
+
+Feel free to explore my portfolio to learn more about my work and projects. Let’s connect and create something remarkable together!`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Windsor, ON', Icon: MapIcon},
+    {label: 'Age', text: `${new Date().getFullYear() - new Date("2000-02-03").getFullYear() - (new Date().setFullYear(0) < new Date("2000-02-03").setFullYear(0) ? 1 : 0)}`, Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Reading, Gym, Languages', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Windsor', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Consuy Inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -119,73 +133,119 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Programming languages',
     skills: [
       {
-        name: 'English',
+        name: 'Python',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'JavaScript',
+        level: 8,
       },
       {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
+        name: 'TypeScript',
+        level: 8,
       },
       {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
+        name: 'Java',
+        level: 7
+      }
     ],
   },
   {
     name: 'Backend development',
     skills: [
       {
+        name: 'FastAPI',
+        level: 9,
+      },
+      {
         name: 'Node.js',
-        level: 8,
+        level: 9,
       },
       {
-        name: 'Rust',
+        name: 'Django',
+        level: 7,
+      },
+      {
+        name: 'Springboot',
         level: 5,
+      }
+    ],
+  },
+  
+  {
+    name: 'Frontend development',
+    skills: [
+      {
+        name: 'HTML',
+        level: 10
       },
       {
-        name: 'Golang',
-        level: 4,
+        name :'CSS',
+        level: 9
+      },
+      {
+        name: 'React',
+        level: 7,
+      },
+      {
+        name: 'Angular',
+        level: 7,
+      },
+      {
+        name: 'Next.js',
+        level: 6,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Other Tools',
     skills: [
       {
-        name: 'React Native',
+        name: 'GitHub',
+        level: 10,
+      },
+      {
+        name: 'Postman',
+        level: 10,
+      },
+      {
+        name: 'Axios',
+        level: 9
+      },
+      {
+        name: 'Microsoft Azure',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
+        name: 'JIRA',
+        level: 9
+      }
     ],
   },
+  {
+    name:'Spoken Languages',
+    skills:[
+      {
+        name:'English',
+        level: 9
+      },
+      {
+        name:'Tamil',
+        level: 10
+      },
+      {
+        name:'Hindi',
+        level: 7
+      },
+      {
+        name:'Telugu',
+        level: 6
+      }
+    ]
+  }
 ];
 
 /**
@@ -265,39 +325,53 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2023 - December 2024',
+    location: 'University of Windsor, Windsor, ON, Canada',
+    title: 'Master of Applied Computing',
+    content: <p></p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'August 2017 - June 2021',
+    location: 'Anna University, Chennai, TN, India',
+    title: 'Bachelor of Engineering ( Comp. Sci and Engineering)',
+    content: <p></p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'August 2024 - Present',
+    location: 'Consuy Inc., Calgary, AB, Canada(Remote) ',
+    title: 'Senior Software Engineer Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+    At Consuy, an innovative startup in stealth mode, I have played a pivotal role in developing cutting-edge software solutions, contributing to the team’s vision of delivering transformative products. My accomplishments include: <br/> <br />
+
+    <strong>Optimizing API Performance:</strong> Spearheaded the implementation of Redis Caching, reducing API response times dramatically from 1600 ms to just 32 ms, ensuring a seamless user experience.<br />
+    <strong>Efficient Data Management:</strong> Designed and structured 10+ relational database tables with over 30 data attributes, enabling organized and efficient data storage for the application.<br />
+    <strong>Context Middleware Integration:</strong> Empowered the AI service to store and process 10+ diverse data items independently, enhancing modularity and scalability.<br />
+    <strong>Securing APIs:</strong> Strengthened application security by incorporating JWT token authentication, safeguarding against 10+ types of potential vulnerabilities.<br />
+    <strong>Automation for Efficiency:</strong> Automated the core summary update process using AI libraries, reducing manual effort by 50%, streamlining workflows and increasing productivity.<br />
+
+<br />
+    My role also involved leading a team of three talented back-end engineers, ensuring high-quality development of REST APIs, and driving collaboration to achieve timely project deliverables.
+</p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'June 2021 - June 2023',
+    location: 'Brillio Technologies, Bengaluru, KA, India',
+    title: 'Software Development Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        At Brillio, a full-service digital transformation firm specializing in Product and Platform Engineering, Data Analytics, and Customer Experience, I contributed to building innovative solutions that streamlined processes and enhanced decision-making for the organization. My responsibilities included:
+        <br /><br />
+
+<strong>REST API Development:</strong> Designed and optimized APIs to support 6000+ users, ensuring efficient data handling and reducing database query times.<br />
+<strong>Data Visualization:</strong> Developed interactive charts and graphs using the Charts.js library, enabling management to make informed decisions based on visual data insights.<br />
+<strong>Module Leadership:</strong> Led a team in creating seamless data interchange modules, integrating 25+ data items with third-party APIs for improved efficiency.<br />
+<br />
+At Brillio, I honed my skills in back-end development, data visualization, and API integration, contributing to impactful solutions that aligned with organizational goals.
       </p>
     ),
   },
