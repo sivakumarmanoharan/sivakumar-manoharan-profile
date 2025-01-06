@@ -25,6 +25,7 @@ import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic2 from '../images/20241224_114854.jpg'
 import testimonialImage from '../images/testimonial.webp';
+import shreyasImage from '../images/1516824683222.webp'
 import {
   About,
   ContactSection,
@@ -384,18 +385,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Shreyas Rajagopal',
+      text: 'Siva is a prime example of how having the right attitude and a desire to better yourself everyday can take you newer professional heights. At Brillio, I had a chance to work with Siva as a developer and was mighty impressed with the way he approaches to solve a problem. He is very thorough and demands absolute clarity in the requirements given to him for development, and his output accordingly reflects high quality of work. Apart from his professional skills, Siva is also adept at interpersonal relationships with his team which allowed for better synergy and made it a joy for his team to work with him. He is a person who is not afraid of stepping outside his comfort zone and in fact prefers to take on new challenges everyday. Quick to learn new languages to communicate better with his team and does not hold back to reach out to multiple teams to get the job done. Siva would be a great assest to any team and earns my highest recommendation!',
+      image: shreyasImage
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Vishnu Asokan',
+      text: `I'm pleased to recommend Sivakumar, who quickly transitioned from Python to NodeJS as a fresher. He has a remarkable mindset for problem-solving and consistently delivered high-quality work in a timely manner. He was always eager to explore new technical skills and technologies. These qualities made him an invaluable asset to the FUEL team. He brings a positive attitude and friendly demeanor to the team. I highly endorse him for any development role. He's sure to excel and contribute positively to any team.`,
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Bhanu Sailesh Kappera',
+      text: 'I have had the privilege of working alongside Siva Kumar, and I highly recommend him. Siva’s dedication, communication skills, and problem-solving abilities make him an invaluable colleague. His positive attitude and professionalism truly set him apart. Any team would be fortunate to have him onboard.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
